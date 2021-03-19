@@ -33,6 +33,6 @@ ax.set_ylim([-3,3])
 # label axes
 plt.xlabel('Year')
 plt.ylabel('SOI')
-plt.title('Southern Oscillation Index')
+plt.title('Southern Oscillation Index', fontsize=15)
 
 plt.show()
