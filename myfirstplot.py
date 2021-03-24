@@ -36,3 +36,4 @@ plt.ylabel('SOI')
 plt.title('Southern Oscillation Index', fontsize=15)
 
 plt.show()
+#plt.savefig('soi.png')
