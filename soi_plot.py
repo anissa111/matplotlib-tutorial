@@ -20,8 +20,11 @@ ax = plt.gca()
 ax.axhline(y=0, color='grey', linewidth=0.75)
 
 # Plot data
-ax.plot(date, soi, color='black', linewidth=0.5)
-ax.plot(date, dsoi, color='black')
+ax.plot(date, soi, color='black', linewidth=0.5, label="soi")
+ax.plot(date, dsoi, color='black', label='dsoi')
+
+# add a legend
+plt.legend()
 
 # Fill above and below y=0
 ax.fill_between(date, soi, where=soi > 0, color='red')
