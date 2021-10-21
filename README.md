@@ -1,4 +1,4 @@
-# Project Pythia's Matplotlib Tutorial
+# Matplotlib Tutorial
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/anissa111/matplotlib-tutorial/HEAD?urlpath=lab)
 
