@@ -1,0 +1,14 @@
+name: mpl-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - matplotlib
+  - jupyterlab>=3
+  - ipywidgets
+  - ffmpeg
+  - cmaps
+  - cartopy
+  - pickle
+  - numpy
+  - xarray
